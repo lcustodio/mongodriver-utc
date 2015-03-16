@@ -10,7 +10,7 @@ DateTime.UtcNow
 DateTimeOffset.UtcNow
 DateTimeOffset.Now
 
-	DateTimeOffset is not a BsonValue valid type, the conversion is based on the [official driver](https://github.com/mongodb/mongo-csharp-driver/blob/master/src/MongoDB.Bson/ObjectModel/BsonTypeMapper.cs#L519).
+> DateTimeOffset is not a BsonValue valid type, the conversion is based on the [official driver](https://github.com/mongodb/mongo-csharp-driver/blob/master/src/MongoDB.Bson/ObjectModel/BsonTypeMapper.cs#L519).
 
 The output is:
 
